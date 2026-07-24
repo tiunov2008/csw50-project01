@@ -107,7 +107,8 @@ button {
 
 .facts-text{
     display: flex;
-    margin-top:60px;
+    margin-top: 60px;
+    margin-bottom: 75px;
     gap: 85px;
 }
 
@@ -135,4 +136,74 @@ button {
     color: #161C2D;
     mix-blend-mode: normal;
     opacity: 0.7;
+}
+
+.service{
+    border-top: 1px solid #E7E9ED;
+}
+
+.service-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-info{
+    max-width: 550px;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.service-header{
+    height: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #161C2D;
+}
+
+.service-text{
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    color: #161C2D;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.service-ul{
+    display: flex;
+    justify-content:center;
+    gap: 29px;
+    padding-top:90px;
+    padding-bottom: 120px;
+}
+
+.service-ul_item{
+    border: 1px solid #E7E9ED;
+    border-radius: 10px;
+}
+
+.service-ul_img{
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.service-ul_btn{
+    width: 250px;
+    background:none;
+    height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #161C2D;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
