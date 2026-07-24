@@ -207,3 +207,141 @@ button {
     justify-content: space-between;
     align-items: center;
 }
+
+.choose-us{
+    background-color: #F4F7FA;
+}
+
+.choose-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 135px;
+    padding-top: 92px;
+}
+
+.choose-info{
+    max-width: 550px;
+    padding-bottom: 74px;
+    margin: 0 auto;
+}
+
+.choose-header{
+    height: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #161C2D;
+}
+
+.choose-text{
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    color: #161C2D;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.choose-items{
+    display: flex;
+    gap: 95px;
+}
+
+.choose-items_vid{
+    position: relative;
+}
+
+.choose-vid{
+    width: 540px;
+    border-radius: 8px;
+}
+
+.choose-vid_btn{
+    background-color: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 92px;
+    height: 92px;
+
+    background: none;
+    padding: 0;
+}
+
+.choose-svg_oval{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.choose-svg_play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.choose-items_ol{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 30px;
+}
+
+.choose-items_ol_li{
+    display: flex;
+}
+
+.choose-items_ol li::before {
+    content: "";
+    display: block;
+    width: 43px;
+    height: 43px;
+    flex: 0 0 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.choose-items_ol li:nth-child(1)::before {
+    background-image: url("../img/1.svg");
+}
+
+.choose-items_ol li:nth-child(2)::before {
+    background-image: url("../img/2.svg");
+}
+
+.choose-items_ol li:nth-child(3)::before {
+    background-image: url("../img/3.svg");
+}
+
+
+.choose-items_ol_li_h3{
+    height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    color: #161C2D;
+}
+
+.choose-items_ol_li_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #161C2D;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
