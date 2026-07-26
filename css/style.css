@@ -358,6 +358,7 @@ button {
     justify-content: center;
 }
 
+
 .alert-header{
     display: flex;
     justify-content: center;
@@ -387,19 +388,19 @@ button {
 }
 
 
-.alert-info_ul{
+.reviews-info_ul{
     display: flex;
     gap: 57px;
     padding-top: 100px;
     padding-bottom: 110px;
 }
 
-.alert-info_li{
+.reviews-info_li{
     display: flex;
     width: 330px;
 }
 
-.alert-info_ul_block{
+.reviews-info_ul_block{
     display: flex;
     gap: 50px;
     flex-direction: column;
@@ -407,22 +408,22 @@ button {
 }
 
 
-.alert-info_ul_person{
+.reviews-info_ul_person{
     display: flex;
     align-items: center;
     gap:20px;
 }
 
-.alert-logo{
+.reviews-logo{
     width: 100px;
 }
 
-.alert-photo{
+.reviews-photo{
     width: 67px;
 }
 
 
-.alert-info_ul_block_li_txt{
+.reviews-info_ul_block_li_txt{
     height: 102px;
     font-style: normal;
     font-weight: 700;
@@ -432,7 +433,7 @@ button {
     color: #161C2D;
 }
 
-.alert_name{
+.reviews-name{
     height: 29px;
     font-style: normal;
     font-weight: 700;
@@ -441,7 +442,7 @@ button {
     color: #161C2D;
 }
 
-.alert_role{
+.reviews-role{
     height: 26px;
     font-style: normal;
     font-weight: 400;
@@ -450,4 +451,9 @@ button {
     color: #161C2D;
     mix-blend-mode: normal;
     opacity: 0.7;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
 }
