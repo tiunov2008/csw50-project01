@@ -274,6 +274,11 @@ button {
 
     background: none;
     padding: 0;
+
+}
+
+.pause-icon {
+    display: none;
 }
 
 .choose-svg_oval{
