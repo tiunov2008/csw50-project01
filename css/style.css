@@ -3,8 +3,28 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: sans-serif;
 }
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Gilroy";
+}
+
 
 a {
     text-decoration: none;
@@ -65,6 +85,12 @@ button {
 .header-nav{
     display: flex;
     column-gap: 40px;
+}
+
+.header-nav__item{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
 }
 
 .header .start-btn{
