@@ -131,30 +131,28 @@ button {
     justify-content: center;
 }
 
-.facts-text{
+.facts-list{
     display: flex;
     margin-top: 60px;
     margin-bottom: 75px;
     gap: 85px;
 }
 
-.facts-ul_text{
+
+.facts-list__item{
+    width: 295px;
     display: flex;
     gap: 30px;
 }
 
-.facts-ul{
-    width: 295px;
-}
-
-.facts-ul_text_num{
+.facts-list__num{
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     color: #161C2D;
 }
 
-.facts-ul_text_item{
+.facts-list__text{
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
