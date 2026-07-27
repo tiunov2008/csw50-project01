@@ -554,6 +554,11 @@ input::placeholder {
     font-size: 15px;
     line-height: 26px;
     color: #161C2D;
+    width:100%;
+    border-radius: 8px;
+    height: 50px;
+    padding: 18px 12px;
+    border: 1px solid #E7E9ED;
 }
 
 .cta-form_select{
@@ -570,14 +575,7 @@ input::placeholder {
     padding: 18px 12px;
     border: 1px solid #E7E9ED;
 }
-
-.cta-form_input{
-    width:100%;
-    border-radius: 8px;
-    height: 50px;
-    padding: 18px 12px;
-    border: 1px solid #E7E9ED;
-}
+    
 
 .cta-block_form_btn{
     width: 100%;
@@ -591,4 +589,64 @@ input::placeholder {
     color: #FFFFFF;
     padding: 13px auto;
     border-radius: 8px;
+}
+
+.newsletter{
+    border-bottom: 1px solid #E7E9ED;
+}
+
+.newsletter_wrapper{
+    margin: 75px auto;
+    width: 1100px;
+}
+
+.newsletter_ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter_text{
+    height: 88px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #161C2D;
+    width: 500px;
+}
+
+.newsletter_form_ul{
+    display: flex;
+    gap:20px;
+}
+
+.newsletter_form_btn{
+    background: #473BF0;
+    width: 170px;
+    height: 55px;
+    padding: 13px 17px;
+    border-radius: 8px;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.newsletter_form_email{
+    width: 290px;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid #E7E9ED;
+    padding: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #161C2D;
 }
