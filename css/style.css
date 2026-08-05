@@ -21,6 +21,14 @@
     font-display: swap;
 }
 
+@font-face {
+  font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/rubik-v31-latin-regular.woff2') format('woff2');
+}
+
 body {
     font-family: "Gilroy";
 }
@@ -133,8 +141,8 @@ button {
 
 .facts-list{
     display: flex;
-    margin-top: 60px;
-    margin-bottom: 75px;
+    padding-top: 60px;
+    padding-bottom: 75px;
     gap: 85px;
 }
 
@@ -188,7 +196,7 @@ button {
 }
 
 .service-text{
-    padding-top: 20px;
+    margin-top: 20px;
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
@@ -201,8 +209,7 @@ button {
 
 .service-ul{
     display: flex;
-    justify-content:center;
-    gap: 29px;
+    justify-content: space-between;
     padding-top:90px;
     padding-bottom: 120px;
 }
@@ -275,6 +282,7 @@ button {
 .choose-items{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }   
 
 .choose-items__vid{
@@ -331,29 +339,42 @@ button {
 
 .choose-items__ol__li{
     display: flex;
+    counter-increment: step;
+    position: relative;
+    padding-left: 70px;
 }
 
 .choose-items__ol li::before {
     content: "";
-    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+
     width: 43px;
     height: 43px;
-    flex: 0 0 80px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    border-radius: 50%;
+    background: #473BF0;
+    opacity: 10%;
 }
 
-.choose-items__ol li:nth-child(1)::before {
-    background-image: url("../img/1.svg");
-}
+.choose-items__ol li::after {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0;
 
-.choose-items__ol li:nth-child(2)::before {
-    background-image: url("../img/2.svg");
-}
+    width: 43px;
+    height: 43px;
 
-.choose-items__ol li:nth-child(3)::before {
-    background-image: url("../img/3.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: #473BF0;
 }
 
 
@@ -674,7 +695,7 @@ input::placeholder {
     border-bottom: 1px solid #E7E9ED;
 }
 
-th{
+.footer-table_th{
     height: 26px;
     font-style: normal;
     font-weight: 400;
