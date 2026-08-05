@@ -1,5 +1,5 @@
 const video = document.querySelector("#choose-video");
-const button = document.querySelector("#choose-vid_play_btn");
+const button = document.querySelector("#choose-vid__play__btn");
 const playIcon = document.querySelector(".play-icon");
 const pauseIcon = document.querySelector(".pause-icon");
 
